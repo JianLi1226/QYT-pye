@@ -6,3 +6,4 @@ port_list = ['eth 1/101/1/42','eth 1/101/1/26','eth 1/101/1/23','eth 1/101/1/7',
 
 port_list.sort(key=lambda x:(int(x[11:].replace('/',''))+int(x[4:11].replace('/','')*100)))
 print(port_list)
+#test vcs
