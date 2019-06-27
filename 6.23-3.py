@@ -1,7 +1,10 @@
+import PyInstaller
+
 print("Pls input any word:")
 word = str(input())
 
 # new_list_word = list(word)
+
 # first_cha = new_list_word.pop(0) # pop the first character
 #
 # # Note list.append() does not return a new list
