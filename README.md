@@ -21,5 +21,5 @@ for line in open('filename').readlines():
 for line in open('filename'):
     print(line, end='')
 ```
-The results are the same, but the second method - a file object iterator is preferred, which can save 
+The results are the same, but the second method is preferred, it can save 
 memory resources. The `open()`function returns a file object, which is an iterator.
