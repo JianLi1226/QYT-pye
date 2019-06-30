@@ -3,7 +3,7 @@
 1. [List](#list)
 2. [Files I/O](#Files I/O)
 
-###### Files I/O
+##### Files I/O
 1. Use `with` syntax, so that files can be automatically colsed.
 ```python
 with open('data.txt', 'r') as f:
