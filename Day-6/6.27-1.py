@@ -15,8 +15,9 @@ for session in asa_conn.split('\n'):
                               r'.*bytes (\d+), flags (\w*)', session.strip()).groups()
     session_key = session_parsed[0:4]
     session_val = session_parsed[4:6]
-    session_dict = dict() # Have to create a new dict in each loop
-    session_dict[session_key] = session_val
+    # session_dict = dict() # Have to create a new dict in each loop
+    # session_dict[session_key] = session_val
+    session_dict = {session_key:session_val}
     sessions_list.append(session_dict)
 
 for ses_dict in sessions_list:
