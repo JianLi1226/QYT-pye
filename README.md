@@ -44,7 +44,8 @@ Output:
 ```
 * In other words, `re.match('pattern')` equals `re.findall('^pattern')`
 
-2. 
+2. match.groups() VS match.group()
+*groups() returns a tuple containing all subgroups
 
 ##### Files I/O
 1. Use `with` syntax, so that files can be automatically colsed.
