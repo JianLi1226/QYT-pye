@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="jianli@192.168.64.131:22 (2)">
+  <component name="PublishConfigData" autoUpload="Always" serverName="jianli@192.168.64.131:22">
     <serverData>
-      <paths name="jianli@192.168.64.131:22 (2)">
+      <paths name="192.168.64.131-ubuntu">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/jianli/Qyt_pye" local="$PROJECT_DIR$" web="/" />
+            <mapping local="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="jianli@192.168.64.131:22">
         <serverdata>
           <mappings>
             <mapping deploy="/home/jianli/Qyt_pye" local="$PROJECT_DIR$" />
@@ -10,5 +18,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
