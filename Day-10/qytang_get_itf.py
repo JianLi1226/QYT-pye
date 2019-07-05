@@ -25,4 +25,3 @@ def qytang_get_if(ip_list, username, pwd):
 
 devices = ['192.168.5.1', '192.168.6.55', '192.168.5.4']
 pprint.pprint(qytang_get_if(devices, 'admin', 'cug@2018'), indent=4)
-
