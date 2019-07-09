@@ -4,7 +4,7 @@ import logging
 logging.getLogger("kamene.runtime").setLevel(logging.ERROR)
 
 def qytang_ping(ip):
-    ping_pkt = IP(dst=str(ip))/ICMP()
+    ping_pkt = IP(src='192.168.1.123', dst=str(ip))/ICMP()/(8*'#')
     ping_result = sr1(ping_pkt,timeout=2, verbose=False)
     if ping_result:
         return 1
@@ -12,7 +12,7 @@ def qytang_ping(ip):
         return 0
 
 if __name__ == '__main__':
-    ip = '192.168.5.1'
+    ip = '192.168.6.7'
     result = qytang_ping(ip)
     if result:
         print(f"{str(ip):} accessible")

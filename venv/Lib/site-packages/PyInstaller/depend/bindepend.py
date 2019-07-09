@@ -872,6 +872,14 @@ def get_python_library_path():
                 return filename
 
     # Python library NOT found. Resume searching using alternative methods.
+
+    # Work around for python venv having VERSION.dll rather than pythonXY.dll
+    if is_win and 'VERSION.dll' in dlls:
+        pydll = 'python%d%d.dll' % sys.version_info[:2]
+        if pydll in PYDYLIB_NAMES:
+            filename = getfullnameof(pydll)
+            return filename
+
     # Applies only to non Windows platforms.
 
     if is_unix:
