@@ -8,7 +8,8 @@ import time
 def get_config(ip, username, pwd):
     try:
         cfg = qytang_ssh(ip, username, pwd, cmd='show running')
-        cfg_parsed = re.findall(r'(hostname[\w\W]*end)', cfg.strip())[0]
+        # Add more details into filters, in case 'end' appears in the other lines
+        cfg_parsed = re.findall(r'(hostname[\w\W]*\r\nend)', cfg.strip())[0]
         return cfg_parsed
     except Exception:
         return
