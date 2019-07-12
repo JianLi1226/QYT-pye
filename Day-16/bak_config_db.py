@@ -35,7 +35,8 @@ def write_cfg_md5_to_db():
         cursor.execute("select * from config_md5 where ip = '%s'" % device)
         md5_result = cursor.fetchall()
         if not md5_result:
-            cursor.execute("insert into config_md5 values ('%s', '%s', '%s')"%(device, config, md5_val))
+            cursor.execute("insert into config_md5 values (%s, %s, %s)", (device, config, md5_val))
+            # cursor.execute("insert into config_md5 values ('%s', '%s', '%s')"%(device, config, md5_val))
         else:
             if md5_result[0][2] == md5_val:  # fetchall() returns a tuple of tuples, so two indexes should be used
                 continue  # Must user 'continue' not break
