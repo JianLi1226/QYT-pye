@@ -16,6 +16,19 @@
       <sourceFolder url="file://$MODULE_DIR$/Network Protocol" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Network Protocol/Day_2" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Network Protocol/Day_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic-Course/Basic_Day11-17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic-Course/Basic_Day11-17/Day-17" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Basic-Course" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network Protocol/Day_5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network Protocol/Day_4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network Protocol/Day_6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network Protocol/D7_schdule_bk_cfg_db" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network_Protocol" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network_Protocol/D7_schdule_bk_cfg_db" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network_Protocol/Day_1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network_Protocol/D8_snmp_cpu_usage" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network_Protocol/Day_6" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Network_Protocol/D9_snmp_mem_usage" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (QYT-pye)" jdkType="Python SDK" />
